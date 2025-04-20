@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+*{
+    font-family: prp;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: prp;
+    src: url(../fontes/boxigen.otf);
+}
+header{
+    background-color: green;
+    margin-bottom: 30px;
+}
+
+header h1{
+    font-family: prp;
+    text-align: center;
+    font-size: 5em;
+    color: rgb(217, 213, 213);
+}
+
+main h2{
+    font-size: 2.5em;
+    color: rgba(1, 79, 1, 0.499);
+    padding: 5px;
+    text-indent: 5px;
+}
+
+main p{
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    margin-left: 15px;
+    
+}
+.exp{
+    color: rgba(0, 0, 0, 0.644);
+}
+div p{
+    font-size: 14px;
+    margin: 4px;
+    padding: 0;
+    color: white;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+}
+
+/*menu*/
+nav{ 
+    background-color: rgb(9, 88, 9);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a:hover{
+    transition: 0.7s;
+    transform: scale(1.05);
+
+}
+
+span.var{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(100, 144, 246);
+}
+span.com{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(238, 107, 107);
+}
+span.num{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(253, 187, 64);
+}
+span.str{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
